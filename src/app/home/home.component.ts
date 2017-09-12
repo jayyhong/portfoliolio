@@ -15,6 +15,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
+    //setInterval will start the animation
     setInterval(() => {
       if (this.frames === 80) {
         this.frames = 1
@@ -25,8 +26,12 @@ export class HomeComponent implements OnInit {
     }, 40)
   }
 
-  renderAbout() {
-    console.log('render about')
+  renderCode() {
+    console.log('render code popup')
+  }
+
+  renderProjects() {
+    console.log('render projects popup')
   }
 
 }
