@@ -1,0 +1,38 @@
+.background {
+  /* min-width: 1500px;
+  min-height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0px; */
+}
+
+.table {
+  height: 630px;
+  margin: auto;
+}
+
+.about {
+  position: absolute;
+  border: 1px solid black;
+  margin:auto;
+  margin-left: 20px;
+  margin-top: 290px;
+  height: 230px;
+  width: 200px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 375px) {
+  .table{
+    height: 40vh;
+    width: 100%;
+  }
+
+  .about {
+    height: 85px;
+    width: 75px;
+    margin-top: 115px;
+    margin-left: 10px;
+  }
+
+}
