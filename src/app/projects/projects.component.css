@@ -6,19 +6,43 @@
   height: 400px;
   display: flex;
   margin: auto;
+  margin-top: 30px;
+}
+.gw_desktop_paragraph{
+display: flex;
+margin: auto;
+width: 80%;
+}
+
+.gw_desktop_paragraph_1 {
+  border-right: 1px solid black;
+  margin-left: 50px;
+  color: grey;
+}
+
+.gw_desktop_paragraph_2 {
+  margin-left: 10px;
+  font-size: 20px;
+  width: 100%;
 }
 
 @media only screen and (max-width: 420px) {
-  .paragraph{
+  .gw_desktop_paragraph{
     width: 100%;
     display: flex;
     margin: auto;
+    margin-top: 0px;
   }
   .image_ar{
-    width: 100%; 
-    margin-left: 5%;
+    height: 200px; 
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 30px;
   }
   .thesis {
     width: 350px;
+  }
+  .gw_desktop_paragraph_1{
+    margin-left: 20px;
   }
 }
