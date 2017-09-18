@@ -1,0 +1,24 @@
+.paragraph {
+  padding: 10px;
+  width: 500px;
+}
+.image_ar{
+  height: 400px;
+  display: flex;
+  margin: auto;
+}
+
+@media only screen and (max-width: 420px) {
+  .paragraph{
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+  .image_ar{
+    width: 100%; 
+    margin-left: 5%;
+  }
+  .thesis {
+    width: 350px;
+  }
+}

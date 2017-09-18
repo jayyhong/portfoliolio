@@ -14,5 +14,6 @@
 @media only screen and (max-width: 420px) {
   .navBarBtn{
     font-size: 12px;
+    margin: auto;
   }
 }
