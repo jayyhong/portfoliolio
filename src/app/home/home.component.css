@@ -5,7 +5,7 @@
 
 .papers {
   position: absolute;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin:auto;
   margin-left: 20px;
   margin-top: 290px;
@@ -16,7 +16,7 @@
 
 .projects {
   position: absolute;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 210px;
   width: 290px;
   margin: auto;
@@ -27,9 +27,50 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 375px) {
+.coffee {
+  position: absolute;
+  /* border: 1px solid black;  */
+  height: 105px;
+  width: 105px;
+  margin: auto;
+  margin-left: 820px;
+  margin-top: 425px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+ /* @media only screen and (max-width: 375px) {
   .table{
-    height: 40vh;
+    height: 35vh;
+    width: 100%;
+  }
+
+  .papers {
+    height: 85px;
+    width: 100%;
+    margin-top: 115px;
+    margin-left: 10px;
+  }
+
+  .projects{
+    height: 85px;
+    width: 115px;
+    margin-left: 205px;
+    margin-top: 70px;
+  }
+
+  .coffee{
+    margin-left: 320px;
+    margin-top: 155px;
+    height: 40px;
+    width: 40px;
+  }
+
+}  */
+
+@media only screen and (max-width: 420px) {
+  .table{
+    height: 35vh;
     width: 100%;
   }
 
@@ -45,6 +86,13 @@
     width: 115px;
     margin-left: 205px;
     margin-top: 70px;
+  }
+
+  .coffee{
+    margin-left: 320px;
+    margin-top: 155px;
+    height: 40px;
+    width: 40px;
   }
 
 }

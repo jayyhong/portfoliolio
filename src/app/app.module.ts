@@ -6,11 +6,16 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ResumeComponent } from './resume/resume.component';
+import { MdButtonModule, MdCheckboxModule } from '@angular/material';
 
 const appRoutes: Routes= [
   {path: '', component: HomeComponent},
   {path: 'contact', component: ContactComponent},
-  {path: 'about', component: AboutComponent}
+  {path: 'about', component: AboutComponent},
+  {path: 'projects', component: ProjectsComponent},
+  {path: 'resume', component: ResumeComponent}
   
 ]
 
@@ -19,14 +24,18 @@ const appRoutes: Routes= [
     AppComponent,
     HomeComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    ProjectsComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(
       appRoutes,
       {enableTracing: false}
-    )
+    ),
+    MdButtonModule,
+    MdCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

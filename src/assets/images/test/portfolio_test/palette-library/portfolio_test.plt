@@ -27,3 +27,10 @@ Solid    "New 18"                   0x081ed7d6cabbc814 255 255 255  90
 Solid    "New 19"                   0x081ed7d6cabd83f8 246 244 179 255
 Solid    "New 20"                   0x081ed7d6cabef1b1 227 210 253 255
 Solid    "New 21"                   0x0820d4541a90bed7  53  53  53 255
+Solid    "New 0"                    0x082121a08ba944eb 102 117  99 255
+Solid    "New 1"                    0x082121a08bab992d 122 135 119 255
+Solid    "New 2"                    0x082121a08bac4169 209 207 150 255
+Solid    "New 3"                    0x082121a08bac9991  77  92  74 255
+Solid    "New 0"                    0x082180209fd49f34 242 171 171 255
+Solid    "New 1"                    0x082180209fd508e7 213 135 135 255
+Solid    "New 2"                    0x082180209fd52d9d 249 197 197 255

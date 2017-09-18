@@ -24,9 +24,11 @@
  </Element>
  <Element Name="coffee_smoke" ID="9" Folder="coffee_smoke">
   <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
  </Element>
- <Element Name="coffee_smoke_2" ID="10" Folder="coffee_smoke_2">
+ <Element Name="backpack" ID="10" Folder="backpack">
   <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
  </Element>
  <Element Name="phone" ID="11" Folder="phone">
   <Drawing Key="" Name="1" Version="1"/>
@@ -37,5 +39,11 @@
  <Element Name="ipadPOPUP" ID="14" Folder="ipadPOPUP">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
+ </Element>
+ <Element Name="d" ID="15" Folder="d">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Drawing_1" ID="16" Folder="Drawing_1">
+  <Drawing Key="" Name="1" Version="1"/>
  </Element>
 </SceneVersion>

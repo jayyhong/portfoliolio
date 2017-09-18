@@ -4,9 +4,12 @@
     <div class="papers" (click)="renderCode()">
     </div>
     <!-- ipad -->
-    <div class="projects" (click) ="renderProjects()">
+    <div class="projects" (click)="renderProjects()" routerLink="/projects" routerLinkActive="active">
     </div>
-    <img class="table" src="../../assets/images/test/table_test-{{frames}}.png" />
+    <!-- coffee -->
+    <div class="coffee" (click)="renderAboutMe()" routerLink="/" routerLinkActive="active">
+    </div>
+    <img class="table" style="" src="../../assets/images/test/table_test-{{frames}}.png" />
     <!-- <div class="about" routerLink="about" routerLinkActive="active">  -->
   </div>
 </div>

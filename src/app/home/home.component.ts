@@ -9,6 +9,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 export class HomeComponent implements OnInit {
   frames: any;
   background: any;
+  elem: any;
   constructor(public sanitizer: DomSanitizer) { 
     this.frames = 1;
     // this.background = this.sanitizer.bypassSecurityTrustStyle(`url('../../assets/images/test/table_test-`+this.frames+`.png')`)
@@ -32,6 +33,10 @@ export class HomeComponent implements OnInit {
 
   renderProjects() {
     console.log('render projects popup')
+  }
+
+  renderAboutMe() {
+    console.log('About me render')
   }
 
 }
