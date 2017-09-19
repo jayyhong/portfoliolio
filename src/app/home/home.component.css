@@ -1,3 +1,17 @@
+.about_me {
+  display: flex;
+  margin: auto;
+}
+
+.about_me_picture{
+  height: 200px; 
+  border-radius: 100%; 
+  margin-top: 20px; 
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+
 .table {
   height: 630px;
   margin: auto;
@@ -39,39 +53,43 @@
   cursor: pointer;
 }
 
- /* @media only screen and (max-width: 375px) {
-  .table{
-    height: 35vh;
-    width: 100%;
-  }
+.header_name {
+  /* border-left: 1px solid black;  */
+  font-size: 40px; 
+  margin-left: 20px
+}
 
-  .papers {
-    height: 85px;
-    width: 100%;
-    margin-top: 115px;
-    margin-left: 10px;
-  }
+.secondary_headers {
+  font-size: 25px; 
+  margin-top: -10px
+}
 
-  .projects{
-    height: 85px;
-    width: 115px;
-    margin-left: 205px;
-    margin-top: 70px;
-  }
-
-  .coffee{
-    margin-left: 320px;
-    margin-top: 155px;
-    height: 40px;
-    width: 40px;
-  }
-
-}  */
+.about_me_paragraph {
+  font-size: 15px;
+}
 
 @media only screen and (max-width: 420px) {
   .table{
     height: 35vh;
     width: 100%;
+  }
+
+  .header_name {
+    font-size: 25px;
+  }
+
+  .secondary_headers {
+    margin-top: -10px;
+    font-size: 15px;
+  }
+
+  .about_me_picture{
+    height: 100px; 
+    border-radius: 100%; 
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .papers {
@@ -80,6 +98,7 @@
     margin-top: 115px;
     margin-left: 10px;
   }
+
 
   .projects{
     height: 85px;
