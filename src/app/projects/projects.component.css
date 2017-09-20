@@ -85,12 +85,15 @@ max-width: 900px;
   .gw_desktop_paragraph_1{
     margin-left: 10px;
     width: 120px;
+    font-size: 25px;
+  }
+  .gw_desktop_paragraph_2{
+    font-size: 18px;
   }
   .images {
     width: 100%;
     margin-left: 20px;
     margin-top: 20px;
-    display: flex;
     flex-wrap: wrap;
   }
   .login_img{
