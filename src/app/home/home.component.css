@@ -19,7 +19,8 @@
 .table {
   border-left: 1px solid white;
   border-right: 1px solid white;
-  height: 500px;
+  width: 100%;
+  max-width: 750px;
   margin: auto;
 }
 
@@ -62,12 +63,13 @@
 .header_name {
   /* border-left: 1px solid black;  */
   font-size: 40px; 
-  margin-left: 20px
+  margin-left: 20px;
+  margin-top: 50px;
 }
 
 .secondary_headers {
   font-size: 20px; 
-  margin-top: -10px
+  margin-top: 10px
 }
 
 .about_me_buttons {
@@ -85,7 +87,6 @@
 }
 
 .animation_text_2{
-  margin-top: -20px;
   font-size: 20px; 
   font-family: Lato;
 }
@@ -97,11 +98,11 @@
   }
 
   .header_name {
+    margin-top: -5px;
     font-size: 25px;
   }
 
   .secondary_headers {
-    margin-top: -10px;
     font-size: 15px;
   }
 
@@ -137,7 +138,7 @@
   }
 
   .animation_text{
-    margin-top: -50px;
+    margin-top: -30px;
     display: block;
   }
 
