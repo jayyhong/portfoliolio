@@ -10,8 +10,10 @@ export class HomeComponent implements OnInit {
   frames: any;
   background: any;
   elem: any;
+  progressBar: any;
   constructor(public sanitizer: DomSanitizer) { 
     this.frames = 1;
+    this.progressBar = true;
     // this.background = this.sanitizer.bypassSecurityTrustStyle(`url('../../assets/images/test/table_test-`+this.frames+`.png')`)
   }
 
@@ -19,10 +21,10 @@ export class HomeComponent implements OnInit {
     //setInterval will start the animation
     setInterval(() => {
       if (this.frames === 80) {
+        this.progressBar = false;
         this.frames = 1
       } else {
         this.frames ++
-
       }
     }, 40)
   }
