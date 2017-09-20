@@ -107,6 +107,7 @@ max-width: 900px;
   .login_img{
     height: 200px;
     opacity: 1;
+    margin-right: 0px;
   }
   .triplit_images{
     opacity: 1;

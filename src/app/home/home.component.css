@@ -19,8 +19,8 @@
 .table {
   border-left: 1px solid white;
   border-right: 1px solid white;
-  width: 100%;
-  max-width: 750px;
+  min-width: 600px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -45,18 +45,6 @@
   margin-top: 120px;
   -webkit-transform: rotate(22deg);
   transform: rotate(22deg);
-  cursor: pointer;
-}
-
-.coffee {
-  position: absolute;
-  /* border: 1px solid black;  */
-  height: 105px;
-  width: 105px;
-  margin: auto;
-  margin-left: 640px;
-  margin-top: 325px;
-  border-radius: 100px;
   cursor: pointer;
 }
 
@@ -91,10 +79,27 @@
   font-family: Lato;
 }
 
+@media only screen and (max-width: 1000px) {
+  .papers {
+    height: 130px;
+    width: 110px;
+    margin-top: 180px;
+    margin-left: 20px;
+  }
+
+  .projects{
+    height: 180px;
+    width: 250px;
+    margin-left: 350px;
+    margin-top: 70px;
+  }
+}
+
 @media only screen and (max-width: 420px) {
   .table{
     height: 35vh;
     width: 100%;
+    min-width: 0;
   }
 
   .header_name {
@@ -128,13 +133,6 @@
     width: 115px;
     margin-left: 205px;
     margin-top: 70px;
-  }
-
-  .coffee{
-    margin-left: 320px;
-    margin-top: 155px;
-    height: 40px;
-    width: 40px;
   }
 
   .animation_text{
