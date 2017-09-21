@@ -11,7 +11,7 @@ const app = express()
   .use(morgan('dev'))
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'index.html'));
+  res.sendFile(path.join(__dirname, '../dist/index.html'));
 })
 
 app.listen(PORT, err => {
