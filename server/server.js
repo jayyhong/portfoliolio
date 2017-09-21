@@ -10,9 +10,9 @@ const app = express()
   .use(express.static(path.resolve(__dirname, '../dist')))
   .use(morgan('dev'))
 
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, '../dist/index.html'));
-})
+// app.get('/', function (req, res) {
+//   res.sendFile(path.join(__dirname, '../dist/index.html'));
+// })
 
 app.listen(PORT, err => {
   if (err) {
