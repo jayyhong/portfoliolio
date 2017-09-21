@@ -74,6 +74,27 @@ max-width: 900px;
   max-width: 400px;
 }
 
+.ar_image_2 {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  margin-top: 30px;
+  max-width: 900px;
+  opacity: 0.7;
+}
+
+.ar_image_2:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 800px) {
+  .login_img {
+    height: 400px;
+    opacity: 0.7;
+    margin-right: 10px;
+  }
+}
+
 @media only screen and (max-width: 420px) {
   .gw_desktop_paragraph{
     width: 100%;
@@ -105,11 +126,20 @@ max-width: 900px;
     flex-wrap: wrap;
   }
   .login_img{
-    height: 200px;
+    height: 600px;
     opacity: 1;
-    margin-right: 0px;
+    margin-top: 20px;
+    margin-right: 5px;
   }
   .triplit_images{
     opacity: 1;
   }
+
+  .ar_image_2 {
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 15px;
+  opacity: 1;
+}
+
 }

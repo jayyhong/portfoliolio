@@ -13,7 +13,7 @@ import { MdButtonModule,
          MdListModule, 
          MdTabsModule,
          MdDialogModule,
-         MdTooltipModule } from '@angular/material';
+         MdInputModule } from '@angular/material';
 import { CarouselModule } from 'ngx-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -46,7 +46,7 @@ const appRoutes: Routes= [
     MdListModule,
     MdTabsModule,
     MdDialogModule,
-    MdTooltipModule,
+    MdInputModule,
     CarouselModule.forRoot(),
     BrowserAnimationsModule
   ],

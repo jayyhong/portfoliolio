@@ -79,6 +79,12 @@
   font-family: Lato;
 }
 
+.interactive_animation {
+  font-size: 40px; 
+  font-family: Lato; 
+  border-bottom: 5px solid black
+}
+
 @media only screen and (max-width: 1000px) {
   .papers {
     height: 130px;
@@ -95,6 +101,12 @@
   }
 }
 
+.interactive_animation {
+  font-size: 40px; 
+  font-family: Lato; 
+  border-bottom: 5px solid black
+}
+
 @media only screen and (max-width: 420px) {
   .table{
     height: 35vh;
@@ -103,7 +115,7 @@
   }
 
   .header_name {
-    margin-top: -5px;
+    margin-top: 20px;
     font-size: 25px;
   }
 
@@ -143,6 +155,13 @@
   .animation_text_2{
     margin-top: -10px;
     font-size: 18px;
+  }
+
+  .interactive_animation {
+    margin-top: 65px;
+    font-size: 30px; 
+    font-family: Lato; 
+    border-bottom: 5px solid black
   }
 
 }
