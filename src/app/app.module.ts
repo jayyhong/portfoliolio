@@ -49,6 +49,11 @@ const appRoutes: Routes= [
     BrowserAnimationsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, 
+    HomeComponent,
+    ContactComponent,
+    AboutComponent,
+    ProjectsComponent,
+    ResumeComponent]
 })
 export class AppModule { }
