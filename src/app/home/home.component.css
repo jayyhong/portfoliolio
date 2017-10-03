@@ -12,6 +12,10 @@
   margin-right: 40px;
 }
 
+.about_me_buttons {
+  font-size: 15px;
+}
+
 .button {
   color: black;
 }
@@ -60,9 +64,6 @@
   margin-top: 10px
 }
 
-.about_me_buttons {
-  font-size: 15px;
-}
 
 .closing {
   margin-top: -10px;

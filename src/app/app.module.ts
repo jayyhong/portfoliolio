@@ -9,7 +9,6 @@ import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ResumeComponent } from './resume/resume.component';
 import { MdButtonModule, 
-         MdCheckboxModule, 
          MdListModule, 
          MdTabsModule,
          MdDialogModule,
@@ -42,7 +41,6 @@ const appRoutes: Routes= [
       {enableTracing: false}
     ),
     MdButtonModule,
-    MdCheckboxModule,
     MdListModule,
     MdTabsModule,
     MdDialogModule,
@@ -51,6 +49,11 @@ const appRoutes: Routes= [
     BrowserAnimationsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, 
+    HomeComponent,
+    ContactComponent,
+    AboutComponent,
+    ProjectsComponent,
+    ResumeComponent]
 })
 export class AppModule { }
