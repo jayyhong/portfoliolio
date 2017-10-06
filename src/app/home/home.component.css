@@ -1,3 +1,21 @@
+.welcome {
+  position: absolute;
+  width: 50vw;
+  margin-top: 30%;
+  margin-left: 10%;
+  font-size: 5vw;
+  color: #464C5D
+}
+
+.scrolldown {
+  position: absolute;
+  width: 50vw;
+  margin-top: 35%;
+  margin-left: 20%;
+  font-size: 3vw;
+  color: #4E5569
+}
+
 .about_me {
   display: flex;
   margin: auto;

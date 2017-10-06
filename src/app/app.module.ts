@@ -8,21 +8,24 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ResumeComponent } from './resume/resume.component';
-import { MdButtonModule, 
-         MdListModule, 
-         MdTabsModule,
-         MdDialogModule,
-         MdInputModule } from '@angular/material';
+import {
+  MdButtonModule,
+  MdListModule,
+  MdTabsModule,
+  MdDialogModule,
+  MdInputModule
+} from '@angular/material';
 import { CarouselModule } from 'ngx-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AosToken, aos } from './aos';
+import { ParticlesModule } from 'angular-particle';
 
-const appRoutes: Routes= [
-  {path: '', component: HomeComponent},
-  {path: 'contact', component: ContactComponent},
-  {path: 'about', component: AboutComponent},
-  {path: 'projects', component: ProjectsComponent},
-  {path: 'resume', component: ResumeComponent}
-  
+const appRoutes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'projects', component: ProjectsComponent },
+  { path: 'resume', component: ResumeComponent }
 ]
 
 @NgModule({
@@ -36,9 +39,10 @@ const appRoutes: Routes= [
   ],
   imports: [
     BrowserModule,
+    ParticlesModule,
     RouterModule.forRoot(
       appRoutes,
-      {enableTracing: false}
+      { enableTracing: false }
     ),
     MdButtonModule,
     MdListModule,
@@ -48,7 +52,9 @@ const appRoutes: Routes= [
     CarouselModule.forRoot(),
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [
+    { provide: AosToken, useValue: aos }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
