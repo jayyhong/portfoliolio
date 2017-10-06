@@ -7,11 +7,11 @@ const path = require('path');
 const app = express()
   .use(bodyParser.json())
   .use(bodyParser.urlencoded({ extended: true }))
-  .use(express.static(path.resolve(__dirname, '../src')))
+  .use(express.static(path.resolve(__dirname, '../dist')))
   .use(morgan('dev'))
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, '../src/index.html'));
+  res.sendFile(path.join(__dirname, '../dist/index.html'));
 })
 
 app.listen(PORT, err => {
