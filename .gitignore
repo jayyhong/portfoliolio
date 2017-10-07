@@ -2,7 +2,7 @@
 
 # compiled output
 /tmp
-
+/dist
 /out-tsc
 /assets/images
 /assets/project_screenshots
