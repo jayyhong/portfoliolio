@@ -25,7 +25,12 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
 
-    this.myStyle = {
+  }
+
+  ngDoCheck(){}
+
+  ngAfterContentInit(){
+       this.myStyle = {
       'position': 'fixed',
       'width': '100%',
       'height': '100%',
@@ -82,7 +87,6 @@ export class HomeComponent implements OnInit {
         retina_detect: true
       }
     };
-
   }
 
   renderCode() {
