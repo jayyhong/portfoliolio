@@ -24,14 +24,8 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-
-  }
-
-  ngDoCheck(){}
-
-  ngAfterContentInit(){
-       this.myStyle = {
-      'position': 'fixed',
+    this.myStyle = {
+      'position': 'absolute',
       'width': '100%',
       'height': '100%',
       'z-index': 0,

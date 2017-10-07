@@ -40,13 +40,14 @@
 </div> -->
 
 <div style="text-align:center; font-family: Lato">
-  <div class="welcome" data-aos-delay="1000" data-aos="fade-right" data-aos-duration="2000">Welcome</div>
-  <div class="scrolldown" data-aos-delay="3000" data-aos="fade-right" data-aos-duration="2000">Scroll Down for More</div>
-
+  <div class="welcome" data-aos-delay="500" data-aos="fade-right" data-aos-duration="2000">Welcome</div>
+  <div class="scrolldown" data-aos-delay="2100" data-aos="fade-right" data-aos-duration="2000">Scroll Down for More</div>
   <div data-aos="zoom-out-up" class="mountains">
-    <particles [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
     <img style="width: 100vw; margin-left: -8px" src="https://s3-us-west-1.amazonaws.com/portfolio-images-jayh/Mountains-front.png"
     />
+  </div>
+  <div class="particles">
+    <particles [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
   </div>
 
   <div data-aos="zoom-out-up" data-aos-anchor="#trigger-tree" style="margin-top: -23%; margin-left: 32%">
@@ -54,8 +55,8 @@
   </div>
 </div>
 
-<div style="position: fixed; bottom: 0;" data-aos="fade-right" data-aos-anchor="#trigger1">
-  <img style="width: 20vw" src="https://s3-us-west-1.amazonaws.com/portfolio-images-jayh/man.png" />
+<div style="overflow: auto; position: fixed; bottom: 0;" data-aos="fade-right" data-aos-anchor="#trigger1">
+  <img style="width: 20vw"  src="https://s3-us-west-1.amazonaws.com/portfolio-images-jayh/man.png" />
 </div>
 <div style="position: fixed; bottom: 0;" data-aos="fade-right" data-aos-anchor="#trigger2">
   <img style="width: 20vw" src="https://s3-us-west-1.amazonaws.com/portfolio-images-jayh/computer.png" />
