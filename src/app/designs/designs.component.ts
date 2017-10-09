@@ -1,14 +1,13 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { DomSanitizer } from '@angular/platform-browser';
 
 declare var particlesJS: any;
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-designs',
+  templateUrl: './designs.component.html',
+  styleUrls: ['./designs.component.css']
 })
-export class HomeComponent implements OnInit {
+export class DesignsComponent implements OnInit {
   frames: any;
   background: any;
   elem: any;
@@ -18,10 +17,7 @@ export class HomeComponent implements OnInit {
   width: number = 100;
   height: number = 100;
   controller: any;
-
-  constructor(public sanitizer: DomSanitizer) {
-
-  }
+  constructor() { }
 
   ngOnInit() {
     this.myStyle = {
@@ -81,18 +77,6 @@ export class HomeComponent implements OnInit {
         retina_detect: true
       }
     };
-  }
-
-  renderCode() {
-    console.log('render code popup')
-  }
-
-  renderProjects() {
-    console.log('render projects popup')
-  }
-
-  renderAboutMe() {
-    console.log('About me render')
   }
 
 }

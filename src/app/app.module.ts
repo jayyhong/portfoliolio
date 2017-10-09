@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ResumeComponent } from './resume/resume.component';
+import { DesignsComponent } from './designs/designs.component';
 import {
   MdButtonModule,
   MdListModule,
@@ -25,7 +26,8 @@ const appRoutes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'about', component: AboutComponent },
   { path: 'projects', component: ProjectsComponent },
-  { path: 'resume', component: ResumeComponent }
+  { path: 'resume', component: ResumeComponent },
+  { path: 'designs', component: DesignsComponent}
 ]
 
 @NgModule({
@@ -35,7 +37,8 @@ const appRoutes: Routes = [
     ContactComponent,
     AboutComponent,
     ProjectsComponent,
-    ResumeComponent
+    ResumeComponent,
+    DesignsComponent
   ],
   imports: [
     BrowserModule,
