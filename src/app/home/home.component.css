@@ -70,6 +70,7 @@
 
 .about_me_buttons {
   font-size: 15px;
+  margin-left: -17px;
 }
 
 .button {
@@ -130,7 +131,7 @@
   }
 
 
-  
+
   .header_name {
     margin-top: 20px;
     font-size: 25px;

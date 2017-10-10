@@ -22,9 +22,9 @@ import { AosToken, aos } from './aos';
 import { ParticlesModule } from 'angular-particle';
 
 const appRoutes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'about', component: AboutComponent },
+  { path: 'about', component: HomeComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'resume', component: ResumeComponent },
   { path: 'designs', component: DesignsComponent}
