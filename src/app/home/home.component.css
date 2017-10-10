@@ -142,6 +142,24 @@
   border-bottom: 5px solid black
 }
 
+@media only screen and (max-width: 420px) {
+  .video-container{
+    height: 300px;
+  }
+  .inner-border{
+    height: 250px;
+  }
+  .image{
+    height: 180px;
+  }
+  .jay_hongvarivatana{
+    font-size: 20px;
+  }
+  .video-home{
+     width: 500px;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .papers {
     height: 130px;
