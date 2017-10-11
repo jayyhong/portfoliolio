@@ -40,12 +40,7 @@ max-width: 900px;
 
 .login_img {
   height: 500px;
-  opacity: 0.7;
   margin-right: 25px;
-}
-
-.login_img:hover{
-  opacity: 1;
 }
 
 .images {
@@ -63,11 +58,8 @@ max-width: 900px;
   flex-direction: column;
   margin: auto;
   max-width: 900px;
-  opacity: 0.7;
 }
-.triplit_images:hover{
-  opacity: 1;
-}
+
 .coffee_img{
    display: flex;
   flex-direction: column;
@@ -81,11 +73,6 @@ max-width: 900px;
   width: 100%;
   margin-top: 30px;
   max-width: 900px;
-  opacity: 0.7;
-}
-
-.ar_image_2:hover {
-  opacity: 1;
 }
 
 @media only screen and (max-width: 800px) {
