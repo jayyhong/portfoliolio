@@ -10,6 +10,8 @@ import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ResumeComponent } from './resume/resume.component';
 import { DesignsComponent } from './designs/designs.component';
+import { AnimationsComponent } from './animations/animations.component';
+
 import {
   MdButtonModule,
   MdListModule,
@@ -23,12 +25,13 @@ import { AosToken, aos } from './aos';
 import { ParticlesModule } from 'angular-particle';
 
 const appRoutes: Routes = [
-  { path: '', component: AboutComponent },
+  { path: '', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'about', component: HomeComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'resume', component: ResumeComponent },
-  { path: 'designs', component: DesignsComponent}
+  { path: 'designs', component: DesignsComponent},
+  { path: 'animations', component: AnimationsComponent}
 ]
 
 @NgModule({
@@ -39,7 +42,8 @@ const appRoutes: Routes = [
     AboutComponent,
     ProjectsComponent,
     ResumeComponent,
-    DesignsComponent
+    DesignsComponent,
+    AnimationsComponent
   ],
   imports: [
     BrowserModule,

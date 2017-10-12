@@ -1,0 +1,21 @@
+.animation-video1 {
+  width: 600px;
+}
+
+.welcome {
+  position: absolute;
+  width: 50vw;
+  margin-top: 40%;
+  margin-left: 10%;
+  font-size: 5vw;
+  color: #464C5D
+}
+
+.scrolldown {
+  position: absolute;
+  width: 50vw;
+  margin-top: 45%;
+  margin-left: 20%;
+  font-size: 3vw;
+  color: #4E5569
+}
