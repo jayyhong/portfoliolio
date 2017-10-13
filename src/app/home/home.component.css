@@ -50,27 +50,29 @@
   opacity: 1;
 }
 
-
-
-
-
-.about_me {
+.resume {
   display: flex;
   margin: auto;
+  width: 30vw; 
 }
+
+.resume-container {
+  margin-top: 10%;
+}
+
+.about_me {
+  text-align: center
+}
+
 
 .about_me_picture{
   height: 200px; 
   border-radius: 100%; 
   margin-top: 20px; 
-  margin-left: 40px;
-  margin-bottom: 40px;
-  margin-right: 40px;
 }
 
 .about_me_buttons {
   font-size: 15px;
-  margin-left: -17px;
 }
 
 .button {
@@ -81,7 +83,6 @@
   /* border-left: 1px solid black;  */
   font-size: 40px; 
   margin-left: 20px;
-  margin-top: 50px;
 }
 
 .secondary_headers {
@@ -129,9 +130,21 @@
   .video-home{
      width: 500px;
   }
+  .resume {
+    margin-top: 0;
+    width: 100vw; 
+  }
 
 
+  .about_me {
+    display: flex;
+    margin: auto;
+  }
 
+  p {
+    margin-left: 10px;
+  }
+  
   .header_name {
     margin-top: 20px;
     font-size: 25px;
