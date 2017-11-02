@@ -19,7 +19,7 @@ import {
   MdDialogModule,
   MdInputModule
 } from '@angular/material';
-import { CarouselModule } from 'ngx-bootstrap';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AosToken, aos } from './aos';
 import { ParticlesModule } from 'angular-particle';
@@ -57,7 +57,6 @@ const appRoutes: Routes = [
     MdTabsModule,
     MdDialogModule,
     MdInputModule,
-    CarouselModule.forRoot(),
     BrowserAnimationsModule
   ],
   providers: [
