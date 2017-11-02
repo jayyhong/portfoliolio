@@ -90,13 +90,14 @@
 
 .header_name {
   font-size: 40px; 
-  margin-left: 20px;
+  font-weight: lighter;
 }
 
 .secondary_headers {
   font-size: 20px; 
+  letter-spacing: 1.5px;
   font-weight: lighter;
-  margin-top: 10px
+  margin-top: 10px;
 }
 
 
