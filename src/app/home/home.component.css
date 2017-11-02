@@ -1,14 +1,11 @@
 .video-container{
   text-align: center;
-  border: 3px white solid;
   height: 500px;
-  margin: 5% 5% 0 5%;
   overflow: hidden;
 }
 
 .inner-border{
   position: absolute;
-  border: 8px white solid;
   height: 425px;
   left: 10%;
   right: 10%;
@@ -16,7 +13,7 @@
 }
 
 .video-home{
-  width: 1440px;
+  width: 100vw;
   z-index: -1;
 }
 
@@ -30,6 +27,7 @@
   position: relative;
   font-family: Lato;
   font-size: 28px;
+  font-weight: lighter;
   color: white;
   left: -49%;
   margin-top: -3%;
@@ -61,7 +59,8 @@
 }
 
 .about_me {
-  text-align: center
+  margin-top: 70px;
+  text-align: center;
 }
 
 
@@ -71,22 +70,32 @@
   margin-top: 20px; 
 }
 
-.about_me_buttons {
-  font-size: 15px;
+.button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Lato", "Arial";
+  color: black;
+  outline: none;
 }
 
-.button {
-  color: black;
+.button:hover {
+  color: orange;
+}
+
+.button:active {
+  color: #ffc993;
 }
 
 .header_name {
-  /* border-left: 1px solid black;  */
   font-size: 40px; 
   margin-left: 20px;
 }
 
 .secondary_headers {
   font-size: 20px; 
+  font-weight: lighter;
   margin-top: 10px
 }
 
