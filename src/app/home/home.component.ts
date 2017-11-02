@@ -83,16 +83,16 @@ export class HomeComponent implements OnInit {
     };
   }
 
-  renderCode() {
-    console.log('render code popup')
-  }
+  // renderCode() {
+  //   console.log('render code popup')
+  // }
 
-  renderProjects() {
-    console.log('render projects popup')
-  }
+  // renderProjects() {
+  //   console.log('render projects popup')
+  // }
 
-  renderAboutMe() {
-    console.log('About me render')
-  }
+  // renderAboutMe() {
+  //   console.log('About me render')
+  // }
 
 }
