@@ -5,19 +5,16 @@
 }
 
 .welcome {
-  position: absolute;
   width: 50vw;
-  margin-top: 50%;
   margin-left: 10%;
   font-size: 5vw;
   color: #464C5D
 }
 
 .scrolldown {
-  position: absolute;
   width: 50vw;
-  margin-top: 54%;
-  margin-left: 32%;
+  margin-left: 11%;
+  margin-top: -2%;
   font-size: 3vw;
   color: #4E5569
 }
